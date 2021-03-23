@@ -1,13 +1,5 @@
 # TP Kubernetes (K8S) M2 UGE  2021 - Module DevOps
 
-# Table of Contents
-0. [Introduction](#0-les-conteneurs-cest-quoi-)
-1. [Installation](#1-installation)
-2. [First step](#2-first-step)
-3. [Découverte](#3-découverte)
-4. [Dockerfile](#4-dockerfile)
-5. [Docker Compose](#5-docker-compose)
-
 ## Rendu :
 
 Repondre à l'ensemble des questions du TP. Ce TP servira de cours, c'est à vous d'aller chercher les notions. Pour comprendre les thématiques abordés.
@@ -20,7 +12,7 @@ Vous pouvez créer un branche via master exemple : feature/ <Nom-Prenom >
 
 Avant de commencer il faut installer : minikube et kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
-##1.  Quelques notions.
+## 1.  Quelques notions.
 https://www.youtube.com/watch?v=NChhdOZV4sY (fr) ou https://www.youtube.com/watch?v=aSrqRSk43lY (en)
 
 Qu'est ce qu'on pod ? 
@@ -77,7 +69,7 @@ Pour info : pour détruire un pod utiliser `kubectl delete -n default pod <PODS-
 
 Voir la config de kubectl : `kubectl config view` 
 
-Voir les events : `kubectl get events 
+Voir les events : `kubectl get events `
 
 `kubectl cluster-info` que donne cette commande?
 
