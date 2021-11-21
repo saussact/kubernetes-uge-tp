@@ -118,8 +118,10 @@ Allez voir le dashboard pour comprendre et me dire si c'est cohérent avec le ge
 `kubectl get deployment my-app-js -o yaml > my-app-js.yml`
 
 Vous pourrez ainsi directement importer la conf via :  `kubectl create -f <file>`
+ 
+ Expliquer en quelques lignes, quel est l'interet d'avoir ce fichier YAML
 
-##8. Acceder à un pod  et modifier le message.
+## 8. Acceder à un pod  et modifier le message.
  
 `kubectl create deployment mynginxapp --image=nginx:latest`
 
