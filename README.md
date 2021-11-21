@@ -120,6 +120,7 @@ Allez voir le dashboard pour comprendre et me dire si c'est cohérent avec le ge
 Vous pourrez ainsi directement importer la conf via :  `kubectl create -f <file>`
 
 ##8. Acceder à un pod  et modifier le message.
+ 
 `kubectl create deployment mynginxapp --image=nginx:latest`
 
 `kubectlexpose deployment mynginxapp --type=NodePort --port=80`
