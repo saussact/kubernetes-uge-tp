@@ -69,17 +69,20 @@ Pour info : pour détruire un pod utiliser `kubectl delete -n default pod <PODS-
 
 Voir la config de kubectl : `kubectl config view` 
 
-Voir les events : `kubectl get events `
+Voir les events : `kubectl get events`. Avez vous des evenements? si oui, lequel?
 
-`kubectl cluster-info` que donne cette commande?
+`kubectl cluster-info` que donne cette commande? expliquez en deux-trois mots
 
 ##4. Service K8S
+Expliquez en quelques mots/lignes ce qu'est un Service dans K8S?
 
 Nous allons créer un service à ce deployment. pour cela on utilise `expose deployment` dans notre cas :
 
 `kubectl expose deployment my-app-js --type=LoadBalancer --port=8080`
 
 Sur Minikube, le type LoadBalancer rend le Service accessible via la commande minikube service
+
+Expliquez ce qu'est un loadbalancer (LB).
 
 Aller voir si vous trouvez le service dans le dashboard et dans le terminal : `kubectl get services`
 
@@ -103,11 +106,15 @@ pour l'afficher :
 
 `kubectl get pod,svc -n kube-system`
 
+Expliquer cette commande, pour la comprendre.
+
 ## 6. Scaling avec K8S
 
 Lancer 5 exemplaire du pod précédent 
 
 `kubectl scale -n default deployment my-app-js --replicas=5`
+
+A quoi cela sert il (aller chercher sur internet si besoin.)
 
 `kubectl get pods`
 
@@ -143,7 +150,7 @@ Se connecter à un pod : `kubectl exec -ti mynginxapp-5d9b94449d-lw4jw bash`
 
 `rm index.html`
 
-`echo "Vu que je suis rigoureux j'enverrai mon TP en temps et en heure..." > index.html`
+`echo "Je ne sais pas quoi ecrire, mais je l'écris...." > index.html`
 
 `exit`
 
