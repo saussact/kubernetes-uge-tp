@@ -181,5 +181,10 @@ Comprennez vous mieux K8S ?
 Avez vous des précos ?
 
 
+## Pour aller plus loin :
+- Un ancien collègue d'Orange (Olivier Beyler) à mis en place un cours / Formation K8S très complète...
+https://obeyler.github.io/Formation-K8S/
 
- 
+- Aurelie Vache sur Youtube pour comprendre simplement les concepts :
+    Understanding Kubernetes in a visual way : https://www.youtube.com/c/AurelieVache/videos
+
