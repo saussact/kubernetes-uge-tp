@@ -73,7 +73,7 @@ Voir les events : `kubectl get events`. Avez vous des evenements? si oui, lequel
 
 `kubectl cluster-info` que donne cette commande? expliquez en deux-trois mots
 
-##4. Service K8S
+## 4. Service K8S
 Expliquez en quelques mots/lignes ce qu'est un Service dans K8S?
 
 Nous allons créer un service à ce deployment. pour cela on utilise `expose deployment` dans notre cas :
@@ -93,7 +93,7 @@ Aller voir si vous trouvez le service dans le dashboard et dans le terminal : `k
 Que se passe'il ? Quel est le message affiché?
 
 
-##5. Les extensions
+## 5. Les extensions
 
 egarder un peu les extensions.
 `minikube addons list`
