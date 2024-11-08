@@ -3,7 +3,7 @@
 ## Rendu :
 
 Repondre à l'ensemble des questions du TP. Ce TP servira de cours, c'est à vous d'aller chercher les notions. Pour comprendre les thématiques abordés.
-Rendre le compte rendu qui vous servira de (cours / fiche de révision) du TP avant ce soir 23h59
+Rendre le compte rendu qui vous servira de (cours / fiche de révision) du TP et sera à rendre à la fin.
 
 Vous pouvez créer un branche via master exemple : feature/ <Nom-Prenom>
 
